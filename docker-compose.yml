@@ -16,3 +16,7 @@ services:
       image: api-4-image 
       ports:
         - 4000:3000
+    client:
+      image: client-image
+      ports:
+        - 5000:3000
