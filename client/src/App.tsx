@@ -32,9 +32,10 @@ function App() {
   },[])
   return(
     <section>
-    {[dataApi1,dataApi2,dataApi3,dataApi4].map(apiData=>(
-      <p>Data de: {apiData}</p>
-    ))}
+      <p>Api Data: {dataApi1}</p>
+      <p>Api Data: {dataApi2}</p>
+      <p>Api Data: {dataApi3}</p>
+      <p>Api Data: {dataApi4}</p>
     </section>
   )
 }
