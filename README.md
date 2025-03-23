@@ -2,7 +2,11 @@
 ```bash
 git clone https://github.com/jackmmd/kubernetes
 ```
-
+## Docker compose
+```bash
+docker-compose up
+```
+## Ejecución manual 
 ### Crear las images
 ```bash
 cd kubernetes
